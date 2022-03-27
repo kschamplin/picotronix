@@ -70,7 +70,7 @@
       )
       (pin output line (at 7.62 0 180) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 0 -5.08 90) (length 2.54)
         (name "~{PD2}" (effects (font (size 0.508 0.508))))
