@@ -3910,7 +3910,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 128.905 39.37 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 16513962-623a-4494-912a-e58af61c3bdb)
-    (property "Reference" "TP9" (id 0) (at 133.604 38.5353 90)
+    (property "Reference" "TP6" (id 0) (at 133.604 38.5353 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP_GPIO2" (id 1) (at 133.604 41.0722 90)
@@ -4021,7 +4021,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 249.555 121.285 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1ad85e5e-58e2-409a-b471-d18856edb5aa)
-    (property "Reference" "TP22" (id 0) (at 254.254 120.4503 90)
+    (property "Reference" "TP3" (id 0) (at 254.254 120.4503 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "X test" (id 1) (at 254.254 122.9872 90)
@@ -4477,7 +4477,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 128.905 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5c6bf9e8-9d23-4b95-b376-ad423f1bfc33)
-    (property "Reference" "TP11" (id 0) (at 133.604 47.4253 90)
+    (property "Reference" "TP4" (id 0) (at 133.604 47.4253 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP_GPIO16" (id 1) (at 133.604 49.9622 90)
@@ -4939,7 +4939,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 249.555 111.125 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 901d513e-9a77-413a-906b-9d7eba70f2ee)
-    (property "Reference" "TP20" (id 0) (at 254.254 110.2903 90)
+    (property "Reference" "TP1" (id 0) (at 254.254 110.2903 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Z Test" (id 1) (at 254.254 112.8272 90)
@@ -5288,7 +5288,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 128.905 43.815 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bdf21a19-4a3d-45c7-9ac1-306079e4836b)
-    (property "Reference" "TP10" (id 0) (at 133.604 42.9803 90)
+    (property "Reference" "TP5" (id 0) (at 133.604 42.9803 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP_BOOT" (id 1) (at 133.604 45.5172 90)
@@ -5606,7 +5606,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 249.555 116.205 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f3d5151a-5cf4-4c7e-971f-107c6503f9a6)
-    (property "Reference" "TP21" (id 0) (at 254.254 115.3703 90)
+    (property "Reference" "TP2" (id 0) (at 254.254 115.3703 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Y Test" (id 1) (at 254.254 117.9072 90)
@@ -5636,7 +5636,7 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5623R_43R_63R.pdf" (id 3) (at 149.225 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Digikey_PN" "AD5623RBRMZ-5REEL7CT-ND" (id 4) (at 144.145 139.065 0)
+    (property "Digikey_PN" "505-AD5623RBRMZ-5-ND" (id 4) (at 144.145 139.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bb97620f-00a0-416b-a1ee-3df2f54e4ff8))
@@ -5977,23 +5977,23 @@
     (path "/342d01a4-35bb-4096-a0c4-964ee859b829"
       (reference "SW3") (unit 1) (value "BTN1") (footprint "Button_Switch_SMD:SW_SPST_TL3305A")
     )
-    (path "/16513962-623a-4494-912a-e58af61c3bdb"
-      (reference "TP9") (unit 1) (value "ESP_GPIO2") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/bdf21a19-4a3d-45c7-9ac1-306079e4836b"
-      (reference "TP10") (unit 1) (value "ESP_BOOT") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/5c6bf9e8-9d23-4b95-b376-ad423f1bfc33"
-      (reference "TP11") (unit 1) (value "ESP_GPIO16") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/901d513e-9a77-413a-906b-9d7eba70f2ee"
-      (reference "TP20") (unit 1) (value "Z Test") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP1") (unit 1) (value "Z Test") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/f3d5151a-5cf4-4c7e-971f-107c6503f9a6"
-      (reference "TP21") (unit 1) (value "Y Test") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP2") (unit 1) (value "Y Test") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/1ad85e5e-58e2-409a-b471-d18856edb5aa"
-      (reference "TP22") (unit 1) (value "X test") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP3") (unit 1) (value "X test") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/5c6bf9e8-9d23-4b95-b376-ad423f1bfc33"
+      (reference "TP4") (unit 1) (value "ESP_GPIO16") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/bdf21a19-4a3d-45c7-9ac1-306079e4836b"
+      (reference "TP5") (unit 1) (value "ESP_BOOT") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/16513962-623a-4494-912a-e58af61c3bdb"
+      (reference "TP6") (unit 1) (value "ESP_GPIO2") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/45d39a2f-8aab-473b-8561-f6bd933d6e5d"
       (reference "U1") (unit 1) (value "PCM1808") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
