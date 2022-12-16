@@ -7,5 +7,5 @@ find_package(SDL2 REQUIRED)
 add_executable(picogui)
 
 target_sources(picogui PRIVATE src/main.cpp)
-target_link_libraries(picogui PUBLIC STM32)
+target_link_libraries(picogui PUBLIC SDL2)
 
